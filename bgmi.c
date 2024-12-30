@@ -94,7 +94,7 @@ int main(int argc, char *argv[]) {
     struct tm expiration_tm = {0};
     expiration_tm.tm_year = 2024 - 1900; 
     expiration_tm.tm_mon = 11; 
-    expiration_tm.tm_mday = 30; 
+    expiration_tm.tm_mday = 31; 
     expiration_tm.tm_hour = 23; 
     expiration_tm.tm_min = 59; 
     expiration_tm.tm_sec = 59; 
